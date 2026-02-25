@@ -4,49 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c044058-19ec-4489-bee7-026f7980c3ad" name="Changes" comment="Created the bulletin board project on the Django 5">
+    <list default="true" id="e4abcaad-43c1-4124-b54d-fbabd6119f22" name="Changes" comment="Changed the Django version from 4 to 5">
+      <change afterPath="$PROJECT_DIR$/.idea/bboard.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bboard.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/bboard.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/layouts/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/layouts/basic.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" module-name="bboard_d5" is-module-sdk="true">
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
-    <option name="myUseModuleSdk" value="true" />
-    <option name="myModuleName" value="bboard_d5" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "inteldyne"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;inteldyne&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/inteldyne/bboard_d5.git",
-    "accountId": "0631ac1e-f270-48fc-acdf-a3ef4bad1da8"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/inteldyne/bboard_d5.git&quot;,
+    &quot;accountId&quot;: &quot;0631ac1e-f270-48fc-acdf-a3ef4bad1da8&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
-  <component name="ProjectId" id="3A4DEHHK9UpqKIdmpLYeg1rkRyz" />
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="3A6C5Os7sPW5BkDfWvttOiBoUpc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Django Server.bboard.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "django.template.preview.state": "SHOW_EDITOR",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -58,13 +67,14 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="bboard_d5" type="Python.DjangoServer" factoryName="Django server">
-      <module name="bboard_d5" />
+    <configuration name="bboard" type="Python.DjangoServer" factoryName="Django server">
+      <module name="bboard" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="bboard.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -93,20 +103,23 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6c044058-19ec-4489-bee7-026f7980c3ad" name="Changes" comment="" />
-      <created>1771842836276</created>
+      <changelist id="e4abcaad-43c1-4124-b54d-fbabd6119f22" name="Changes" comment="" />
+      <created>1771903449817</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1771842836276</updated>
-      <workItem from="1771842837670" duration="2945000" />
+      <updated>1771903449817</updated>
+      <workItem from="1771903450642" duration="4835000" />
+      <workItem from="1771919198557" duration="55000" />
+      <workItem from="1771924173178" duration="4622000" />
+      <workItem from="1771932726808" duration="4220000" />
     </task>
-    <task id="LOCAL-00001" summary="Created the bulletin board project on the Django 5">
+    <task id="LOCAL-00001" summary="Changed the Django version from 4 to 5">
       <option name="closed" value="true" />
-      <created>1771842998943</created>
+      <created>1771906072527</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1771842998943</updated>
+      <updated>1771906072528</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -115,7 +128,18 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created the bulletin board project on the Django 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created the bulletin board project on the Django 5" />
+    <MESSAGE value="Changed the Django version from 4 to 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed the Django version from 4 to 5" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bboard/settings.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
