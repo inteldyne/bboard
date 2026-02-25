@@ -1,6 +1,8 @@
-img.main-image {
+img {
+  &.main-image {
     width: 300px;
-}
-img.additional-image {
+  }
+  &.additional-image {
     width: 180px;
+  }
 }
