@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4abcaad-43c1-4124-b54d-fbabd6119f22" name="Changes" comment="Added alts into the home page">
+    <list default="true" id="e4abcaad-43c1-4124-b54d-fbabd6119f22" name="Changes" comment="Added the '__str__' method in the 'Bb' class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bboard.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/bboard.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/layouts/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/layouts/basic.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +114,7 @@
       <workItem from="1771919198557" duration="55000" />
       <workItem from="1771924173178" duration="4622000" />
       <workItem from="1771932726808" duration="4220000" />
-      <workItem from="1772074575812" duration="7479000" />
+      <workItem from="1772074575812" duration="9265000" />
     </task>
     <task id="LOCAL-00001" summary="Changed the Django version from 4 to 5">
       <option name="closed" value="true" />
@@ -166,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772084898475</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added the '__str__' method in the 'Bb' class">
+      <option name="closed" value="true" />
+      <created>1772091498500</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1772091498500</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +195,8 @@
     <MESSAGE value="Added the CSS Optimizer" />
     <MESSAGE value="Added style" />
     <MESSAGE value="Added alts into the home page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added alts into the home page" />
+    <MESSAGE value="Added the '__str__' method in the 'Bb' class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the '__str__' method in the 'Bb' class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
