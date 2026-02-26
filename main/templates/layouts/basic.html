@@ -13,7 +13,7 @@
     {% bootstrap_javascript %}
 </head>
 <body class="container-fluid">
-<nav class="row navbar navbar-expand-md bg-success">
+<nav class="row navbar navbar-expand-md bg-success fixed-top">
     <div class="col container">
         <a class="navbar-brand text-primary"
            href="{% url 'main:index' %}">Главная</a>
@@ -52,7 +52,7 @@
         </div>
     </div>
 </nav>
-<div class="container">
+<div class="container ads">
     <div class="row">
         <nav class="col-md-auto nav flex-column bg-success">
             {% for rubric in rubrics %}
