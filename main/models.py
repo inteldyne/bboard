@@ -51,8 +51,7 @@ class SubRubric(Rubric):
 
     class Meta:
         proxy = True
-        ordering = ('super_rubric__order', 'super_rubric__name', 'order',
-                    'name')
+        ordering = ('super_rubric__order', 'super_rubric__name', 'order', 'name')
         verbose_name = 'Подрубрика'
         verbose_name_plural = 'Подрубрики'
 
@@ -71,6 +70,9 @@ class Bb(models.Model):
                                     verbose_name='Выводить в списке?')
     created_at = models.DateTimeField(auto_now_add=True, db_index=True,
                                       verbose_name='Опубликовано')
+
+    def __str__(self):
+        return self.title
 
     def delete(self, *args, **kwargs):
         for ai in self.additionalimage_set.all():
