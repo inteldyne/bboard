@@ -8,5 +8,8 @@ img.additional-image {
 .card {
   border: none;
 }
+.card h3.card-title a {
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=style.css.map */

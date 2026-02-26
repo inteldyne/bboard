@@ -2,6 +2,7 @@ img {
   &.main-image {
     width: 300px;
   }
+
   &.additional-image {
     width: 180px;
   }
@@ -9,4 +10,12 @@ img {
 
 .card {
   border: none;
+
+  h3 {
+    &.card-title {
+      a {
+        text-decoration: none;
+      }
+    }
+  }
 }
