@@ -11,9 +11,9 @@
         <div class="row p-3">
             <a class="col-md-2" href="{{ url }}{{ all }}">
                 {% if bb.image %}
-                <img class="img-fluid" src="{% thumbnail bb.image 'default' %}">
+                <img class="img-fluid" src="{% thumbnail bb.image 'default' %}" alt="{{ bb.title }}">
                 {% else %}
-                <img class="img-fluid" src="{% static 'main/empty.jpg' %}">
+                <img class="img-fluid" src="{% static 'main/empty.jpg' %}" alt="{{ bb.title }}">
                 {% endif %}
             </a>
             <div class="col-md-10 card-body">
