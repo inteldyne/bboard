@@ -56,7 +56,7 @@
     <nav class="col-md-auto nav flex-column bg-success">
         {% for rubric in rubrics %}
             {% ifchanged rubric.super_rubric.pk %}
-                <span class="nav-link text-dark fs-5">{{ rubric.super_rubric.name }}</span>
+                <span class="nav-link text-light fs-5">{{ rubric.super_rubric.name }}</span>
             {% endifchanged %}
             <a class="nav-link ps-4" href="{% url 'main:rubric_bbs' pk=rubric.pk %}">
                 {{ rubric.name }}</a>
