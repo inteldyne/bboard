@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4abcaad-43c1-4124-b54d-fbabd6119f22" name="Changes" comment="Edited the layout">
-      <change beforePath="$PROJECT_DIR$/bboard.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/bboard.sqlite3" afterDir="false" />
-    </list>
+    <list default="true" id="e4abcaad-43c1-4124-b54d-fbabd6119f22" name="Changes" comment="Edited the database" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -195,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772106282769</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Edited the database">
+      <option name="closed" value="true" />
+      <created>1772190434417</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1772190434417</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +226,8 @@
     <MESSAGE value="Added alts into the home page" />
     <MESSAGE value="Added the '__str__' method in the 'Bb' class" />
     <MESSAGE value="Edited the layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited the layout" />
+    <MESSAGE value="Edited the database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited the database" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
