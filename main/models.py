@@ -15,7 +15,7 @@ class AdvUser(AbstractUser):
         pass
 
 class Rubric(models.Model):
-    name = models.CharField(max_length=20, unique=True,
+    name = models.CharField(max_length=30, unique=True,
                             verbose_name='Название')
     order = models.SmallIntegerField(default=0, db_index=True,
                                      verbose_name='Порядок')
@@ -47,7 +47,7 @@ class SubRubric(Rubric):
     objects = SubRubricManager()
 
     def __str__(self):
-        return '%s - %s' % (self.super_rubric.name, self.name)
+        return self.name
 
     class Meta:
         proxy = True
