@@ -53,7 +53,7 @@
     </div>
 </nav>
 <div class="row" id="content">
-    <nav class="col-md-auto nav flex-column bg-success">
+    <nav class="col-md-auto nav flex-column bg-success pr-0">
         {% for rubric in rubrics %}
             <a class="nav-link ps-4" href="{% url 'main:rubric_bbs' pk=rubric.pk %}">{{ rubric.name }}</a>
         {% endfor %}

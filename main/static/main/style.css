@@ -2,6 +2,10 @@
   margin-top: 60px !important;
 }
 
+a.nav-link {
+  color: #fff;
+}
+
 img.main-image {
   width: 300px;
 }

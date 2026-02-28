@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4abcaad-43c1-4124-b54d-fbabd6119f22" name="Changes" comment="Removed the superrubrics">
-      <change beforePath="$PROJECT_DIR$/main/templates/layouts/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/layouts/basic.html" afterDir="false" />
+    <list default="true" id="e4abcaad-43c1-4124-b54d-fbabd6119f22" name="Changes" comment="Removed the superrubric output from the layout">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/main/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/main/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/main/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/main/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772263330146</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Removed the superrubric output from the layout">
+      <option name="closed" value="true" />
+      <created>1772263885078</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1772263885078</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +250,8 @@
     <MESSAGE value="Edited the layout" />
     <MESSAGE value="Edited the database" />
     <MESSAGE value="Removed the superrubrics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed the superrubrics" />
+    <MESSAGE value="Removed the superrubric output from the layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed the superrubric output from the layout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
