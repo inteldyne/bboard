@@ -9,6 +9,11 @@
 a {
   &.nav-link {
     color: #fff;
+    &:hover {
+      color: #fff;
+      background-color: #278c5d;
+    }
+    border-bottom: 1px solid;
   }
 }
 
