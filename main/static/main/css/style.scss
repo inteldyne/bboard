@@ -6,6 +6,10 @@
   padding-right: 0;
 }
 
+.nav, .navbar {
+  background-color: #17212b;
+}
+
 .navbar-brand {
   padding-left: 20px;
   font-size: 16px;
@@ -16,7 +20,7 @@ a {
     color: #fff;
     &:hover {
       color: #fff;
-      background-color: #278c5d;
+      background-color: #212b35;
     }
   }
 }
