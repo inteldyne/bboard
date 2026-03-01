@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4abcaad-43c1-4124-b54d-fbabd6119f22" name="Changes" comment="Edited the layout">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bboard.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/bboard.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/style.scss" afterDir="false" />
-    </list>
+    <list default="true" id="e4abcaad-43c1-4124-b54d-fbabd6119f22" name="Changes" comment="Edited the rubric list" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -248,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772277520320</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Edited the rubric list">
+      <option name="closed" value="true" />
+      <created>1772329438563</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1772329438563</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +277,8 @@
     <MESSAGE value="Removed the superrubrics" />
     <MESSAGE value="Removed the superrubric output from the layout" />
     <MESSAGE value="Edited the layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited the layout" />
+    <MESSAGE value="Edited the rubric list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited the rubric list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
