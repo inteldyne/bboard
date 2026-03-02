@@ -11,12 +11,6 @@
     {% bootstrap_css %}
     <link rel="stylesheet" href="{% static 'main/css/style.min.css' %}">
     {% bootstrap_javascript %}
-    <script>
-        var filename = window.location.pathname;
-        var link = filename.substring(1, (filename.length - 5));
-        let navlink = document.querySelector('[href^=' + link + ']')
-        navlink.classList.add('active')
-    </script>
 </head>
 <body class="container-fluid">
 <nav class="row navbar navbar-expand-md fixed-top">

@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e4abcaad-43c1-4124-b54d-fbabd6119f22" name="Changes" comment="Edited the layout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/templates/layouts/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/layouts/basic.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -285,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772345572629</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Edited the layout">
+      <option name="closed" value="true" />
+      <created>1772362207488</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1772362207488</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
