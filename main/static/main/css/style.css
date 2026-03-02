@@ -40,6 +40,8 @@ img.additional-image {
 
 .card {
   border: none;
+  background-color: #182633;
+  color: #ffffff;
 }
 .card h3.card-title a {
   text-decoration: none;
