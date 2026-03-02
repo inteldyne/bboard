@@ -54,9 +54,9 @@
 </nav>
 <div class="row" id="content">
     <nav class="col-md-auto nav flex-column pr-0">
-        <a class="nav-link active ps-4" href="{% url 'main:index' %}">Все объявления</a>
+        <a class="nav-link active" href="{% url 'main:index' %}">Все объявления</a>
         {% for rubric in rubrics %}
-            <a class="nav-link ps-4" href="{% url 'main:rubric_bbs' pk=rubric.pk %}">{{ rubric.name }}</a>
+            <a class="nav-link" href="{% url 'main:rubric_bbs' pk=rubric.pk %}">{{ rubric.name }}</a>
         {% endfor %}
         <a class="nav-link fs-5" href="{% url 'main:other' page='about' %}">О сайте</a>
     </nav>
