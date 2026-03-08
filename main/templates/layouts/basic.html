@@ -15,8 +15,13 @@
 <body class="container-fluid">
 <nav class="row navbar navbar-expand-md fixed-top">
     <div class="col container">
+    {% if request.path == "/menu" %}
         <a class="navbar-brand text-light"
            href="{% url 'main:index' %}"><strong>ОБЪЯВЛЕНИЯ</strong><br>Станционно-Ояшинский</a>
+        {% else %}
+        <a class="navbar-brand text-light"
+           href="{% url 'main:menu' %}"><strong>← {{ rubric }}</strong></a>
+    {% endif %}
         <button class="navbar-toggler" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
@@ -55,7 +60,7 @@
 <div class="row" id="content">
 {% if request.path == "/menu" %}
     <nav class="nav flex-column pr-0">
-        <a class="nav-link active" href="{% url 'main:index' %}">Все объявления</a>
+        <a class="nav-link" href="{% url 'main:index' %}">Все объявления</a>
         {% for rubric in rubrics %}
             <a class="nav-link" href="{% url 'main:rubric_bbs' pk=rubric.pk %}">{{ rubric.name }}</a>
         {% endfor %}
