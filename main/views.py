@@ -29,6 +29,9 @@ def index(request):
     context = {'bbs': bbs}
     return render(request, 'main/index.html', context)
 
+def menu(request):
+    pass
+
 def other_page(request, page):
     try:
         template = get_template(f'main/{page}.html')

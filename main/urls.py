@@ -1,6 +1,6 @@
 from django.urls import path
 
-from .views import index, other_page, BBLoginView, profile, BBLogoutView, \
+from .views import index, menu, other_page, BBLoginView, profile, BBLogoutView, \
     ProfileEditView, PasswordEditView, RegisterView, RegisterDoneView, \
     user_activate, ProfileDeleteView, BBPasswordResetView, \
     BBPasswordResetConfirmView, rubric_bbs, bb_detail, profile_bb_detail, \
@@ -36,5 +36,6 @@ urlpatterns = [
     path('<int:rubric_pk>/<int:pk>/', bb_detail, name='bb_detail'),
     path('<int:pk>', rubric_bbs, name='rubric_bbs'),
     path('<str:page>', other_page, name='other'),
+    path('menu', menu, name='menu'),
     path('', index, name='index'),
 ]
