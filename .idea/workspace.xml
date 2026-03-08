@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4abcaad-43c1-4124-b54d-fbabd6119f22" name="Changes" comment="Edited the layout">
+    <list default="true" id="e4abcaad-43c1-4124-b54d-fbabd6119f22" name="Changes" comment="Added the font awesome's webfonts">
+      <change afterPath="$PROJECT_DIR$/main/static/main/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/main/js/all.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/templates/layouts/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/layouts/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/rubric_bbs.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/rubric_bbs.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,17 +62,23 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "django.template.preview.state": "SHOW_EDITOR",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/polak/PycharmProjects/bboard/main/static/main/js",
     "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "watcher.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\polak\PycharmProjects\bboard\main\static\main\js" />
+      <recent name="C:\Users\polak\PycharmProjects\bboard\main\static\main\css" />
+      <recent name="C:\Users\polak\PycharmProjects\bboard\main\static\main" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\polak\PycharmProjects\bboard\main\static\main\css" />
     </key>
@@ -368,7 +371,23 @@
       <option name="project" value="LOCAL" />
       <updated>1772943052692</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Edited the layout">
+      <option name="closed" value="true" />
+      <created>1772945063894</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1772945063894</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Added the font awesome's webfonts">
+      <option name="closed" value="true" />
+      <created>1772947836126</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1772947836126</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,6 +418,7 @@
     <MESSAGE value="Edited the 'menu' url" />
     <MESSAGE value="Added the 'menu' page" />
     <MESSAGE value="Edited the layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited the layout" />
+    <MESSAGE value="Added the font awesome's webfonts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the font awesome's webfonts" />
   </component>
 </project>
