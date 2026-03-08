@@ -71,7 +71,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'main.middleware.bboard_context_processor',            ],
+                'main.middleware.bboard_context_processor',
+            ],
         },
     },
 ]

@@ -30,7 +30,8 @@ def index(request):
     return render(request, 'main/index.html', context)
 
 def menu(request):
-    pass
+    template = get_template('main/menu.html')
+    return HttpResponse(template.render(request=request))
 
 def other_page(request, page):
     try:
