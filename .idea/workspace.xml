@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4abcaad-43c1-4124-b54d-fbabd6119f22" name="Changes" comment="Added one rubric">
+    <list default="true" id="e4abcaad-43c1-4124-b54d-fbabd6119f22" name="Changes" comment="Added user in main menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/static/main/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/static/main/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/style.css.map" afterDir="false" />
@@ -405,7 +405,23 @@
       <option name="project" value="LOCAL" />
       <updated>1773227773486</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Added shortcut in main menu">
+      <option name="closed" value="true" />
+      <created>1773228963484</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1773228963484</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Added user in main menu">
+      <option name="closed" value="true" />
+      <created>1773229178159</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1773229178159</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,6 +454,8 @@
     <MESSAGE value="Added the font awesome's webfonts" />
     <MESSAGE value="Edited the layout" />
     <MESSAGE value="Added one rubric" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added one rubric" />
+    <MESSAGE value="Added shortcut in main menu" />
+    <MESSAGE value="Added user in main menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added user in main menu" />
   </component>
 </project>

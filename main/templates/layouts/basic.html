@@ -64,9 +64,9 @@
 <div class="row" id="content">
     {% if request.path == "/menu" %}
         <nav class="nav flex-column pr-0">
-            <a class="nav-link" href="{% url 'main:index' %}">Все объявления<br>
-                <span class="user">Сегей Поляков: </span>
-            <span class="shortcut">Продам холодильник б/у...</span>
+            <a class="nav-link" href="{% url 'main:index' %}"><strong>Все объявления</strong><br>
+                <span class="user">Сергей Поляков: </span>
+            <span class="shortcut">Продам хол...&nbsp;&nbsp;&nbsp;</span><span class="counter">32</span>
             </a>
             {% for rubric in rubrics %}
                 <a class="nav-link" href="{% url 'main:rubric_bbs' pk=rubric.pk %}">{{ rubric.name }}</a>

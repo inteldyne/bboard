@@ -62,4 +62,11 @@ h2 {
   color: #6ab7e5;
 }
 
+.counter {
+  background-color: #6ab7e5;
+  color: #ffffff;
+  padding: 0 9px;
+  border-radius: 15px;
+}
+
 /*# sourceMappingURL=style.css.map */
