@@ -8,6 +8,9 @@ body {
 
 .nav {
   padding-right: 0;
+  &-link {
+    font-size: 22px;
+  }
 }
 
 .nav, .navbar {
@@ -20,7 +23,7 @@ body {
 
 .navbar-brand {
   padding-left: 20px;
-  font-size: 16px;
+  font-size: 22px;
 }
 
 a {

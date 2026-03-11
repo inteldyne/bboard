@@ -9,6 +9,9 @@ body {
 .nav {
   padding-right: 0;
 }
+.nav-link {
+  font-size: 22px;
+}
 
 .nav, .navbar {
   background-color: #17212b;
@@ -20,7 +23,7 @@ body {
 
 .navbar-brand {
   padding-left: 20px;
-  font-size: 16px;
+  font-size: 22px;
 }
 
 a.nav-link {

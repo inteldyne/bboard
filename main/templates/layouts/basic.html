@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="{% static 'main/css/all.min.css' %}">
     <link rel="stylesheet" href="{% static 'main/css/style.min.css' %}">
     {% bootstrap_javascript %}
-    <script src="{% static 'main/js/all.js' %}"></script>
 </head>
 <body class="container-fluid">
 <nav class="row navbar navbar-expand-md fixed-top">
@@ -65,7 +64,7 @@
 <div class="row" id="content">
     {% if request.path == "/menu" %}
         <nav class="nav flex-column pr-0">
-            <a class="nav-link" href="{% url 'main:index' %}">Все объявления</a>
+            <a class="nav-link" href="{% url 'main:index' %}">Все объявления {{ qty|length }}</a>
             {% for rubric in rubrics %}
                 <a class="nav-link" href="{% url 'main:rubric_bbs' pk=rubric.pk %}">{{ rubric.name }}</a>
             {% endfor %}
