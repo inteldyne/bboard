@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4abcaad-43c1-4124-b54d-fbabd6119f22" name="Changes" comment="Edited the layout">
+    <list default="true" id="e4abcaad-43c1-4124-b54d-fbabd6119f22" name="Changes" comment="Added one rubric">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bboard.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/bboard.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/static/main/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/static/main/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/static/main/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/static/main/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/js/all.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main/templates/layouts/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/layouts/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/rubric_bbs.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/rubric_bbs.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -401,7 +397,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772949745722</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Added one rubric">
+      <option name="closed" value="true" />
+      <created>1773227773486</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1773227773486</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,6 +437,7 @@
     <MESSAGE value="Added the 'menu' page" />
     <MESSAGE value="Added the font awesome's webfonts" />
     <MESSAGE value="Edited the layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited the layout" />
+    <MESSAGE value="Added one rubric" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added one rubric" />
   </component>
 </project>
