@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4abcaad-43c1-4124-b54d-fbabd6119f22" name="Changes" comment="Added counter in main menu">
+    <list default="true" id="e4abcaad-43c1-4124-b54d-fbabd6119f22" name="Changes" comment="Removed from Git the foreign files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/css/all.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -425,7 +424,23 @@
       <option name="project" value="LOCAL" />
       <updated>1773229842979</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Added counter in main menu">
+      <option name="closed" value="true" />
+      <created>1773271756197</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1773271756197</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Removed from Git the foreign files">
+      <option name="closed" value="true" />
+      <created>1773272104618</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1773272104618</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,6 +476,7 @@
     <MESSAGE value="Added shortcut in main menu" />
     <MESSAGE value="Added user in main menu" />
     <MESSAGE value="Added counter in main menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added counter in main menu" />
+    <MESSAGE value="Removed from Git the foreign files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed from Git the foreign files" />
   </component>
 </project>

@@ -19,10 +19,10 @@
                     <div class="row p-3">
                         <a class="col-md-2" href="{{ url }}{{ all }}">
                             {% if bb.image %}
-                                <img class="img-fluid"
+                                <img alt="{{ bb.title }}" class="img-fluid"
                                      src="{% thumbnail bb.image 'default' %}">
                             {% else %}
-                                <img class="img-fluid" src="{% static 'main/empty.jpg' %}">
+                                <img alt="{{ bb.title }}"  class="img-fluid" src="{% static 'main/img/empty.jpg' %}">
                             {% endif %}
                         </a>
                         <div class="col-md-10 card-body">
