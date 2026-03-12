@@ -3,14 +3,14 @@ body {
 }
 
 #content {
-  margin-top: 60px !important;
+  margin-top: 100px !important;
 }
 
 .nav {
   padding-right: 0;
 }
 .nav-link {
-  font-size: 22px;
+  font-size: 56px;
 }
 
 .nav, .navbar {
@@ -23,7 +23,7 @@ body {
 
 .navbar-brand {
   padding-left: 20px;
-  font-size: 22px;
+  font-size: 56px;
 }
 
 a.nav-link {
