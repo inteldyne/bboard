@@ -35,7 +35,7 @@
                 {% if user.is_authenticated %}
                     <div class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle"
-                           data-bs-toggle="dropdown" href="#">Профиль</a>
+                           data-bs-toggle="dropdown" href="#"><img src="{% static 'main/icons/user.png' %}"></a>
                         <div class="dropdown-menu dropdown-menu-end">
                             <a class="dropdown-item" href="{% url 'main:profile' %}">Мои
                                 объявления</a>

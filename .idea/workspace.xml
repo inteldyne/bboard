@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4abcaad-43c1-4124-b54d-fbabd6119f22" name="Changes" comment="Edited the layout">
+    <list default="true" id="e4abcaad-43c1-4124-b54d-fbabd6119f22" name="Changes" comment="Removed the font awesome">
+      <change afterPath="$PROJECT_DIR$/main/static/main/icons/user.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/templates/layouts/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/layouts/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/menu.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +131,7 @@
       <workItem from="1771932726808" duration="4220000" />
       <workItem from="1772074575812" duration="14667000" />
       <workItem from="1773315325031" duration="1558000" />
-      <workItem from="1773701956730" duration="1403000" />
+      <workItem from="1773701956730" duration="2781000" />
     </task>
     <task id="LOCAL-00001" summary="Changed the Django version from 4 to 5">
       <option name="closed" value="true" />
@@ -469,7 +469,31 @@
       <option name="project" value="LOCAL" />
       <updated>1773316394349</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Edited the layout">
+      <option name="closed" value="true" />
+      <created>1773704139043</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1773704139044</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Edited the layout">
+      <option name="closed" value="true" />
+      <created>1773704208419</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1773704208419</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Removed the font awesome">
+      <option name="closed" value="true" />
+      <created>1773704283105</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1773704283105</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,6 +531,7 @@
     <MESSAGE value="Removed from Git the foreign files" />
     <MESSAGE value="Edited the file system" />
     <MESSAGE value="Edited the layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited the layout" />
+    <MESSAGE value="Removed the font awesome" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed the font awesome" />
   </component>
 </project>
