@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4abcaad-43c1-4124-b54d-fbabd6119f22" name="Changes" comment="Edited the file system" />
+    <list default="true" id="e4abcaad-43c1-4124-b54d-fbabd6119f22" name="Changes" comment="Edited the layout">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/layouts/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/layouts/basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/menu.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +130,8 @@
       <workItem from="1771924173178" duration="4622000" />
       <workItem from="1771932726808" duration="4220000" />
       <workItem from="1772074575812" duration="14667000" />
-      <workItem from="1773315325031" duration="932000" />
+      <workItem from="1773315325031" duration="1558000" />
+      <workItem from="1773701956730" duration="1403000" />
     </task>
     <task id="LOCAL-00001" summary="Changed the Django version from 4 to 5">
       <option name="closed" value="true" />
@@ -456,7 +461,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773315906715</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Edited the layout">
+      <option name="closed" value="true" />
+      <created>1773316394349</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1773316394349</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,13 +500,13 @@
     <MESSAGE value="Edited the 'menu' url" />
     <MESSAGE value="Added the 'menu' page" />
     <MESSAGE value="Added the font awesome's webfonts" />
-    <MESSAGE value="Edited the layout" />
     <MESSAGE value="Added one rubric" />
     <MESSAGE value="Added shortcut in main menu" />
     <MESSAGE value="Added user in main menu" />
     <MESSAGE value="Added counter in main menu" />
     <MESSAGE value="Removed from Git the foreign files" />
     <MESSAGE value="Edited the file system" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited the file system" />
+    <MESSAGE value="Edited the layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited the layout" />
   </component>
 </project>

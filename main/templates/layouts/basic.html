@@ -21,10 +21,10 @@
                href="{% url 'main:index' %}"><strong>ОБЪЯВЛЕНИЯ: ОЯШ</strong></a>
         {% elif request.path == "/" %}
             <a class="navbar-brand text-light"
-               href="{% url 'main:menu' %}"><strong><span class="fa fa-arrow-left"></span> Все объявления</strong></a>
+               href="{% url 'main:menu' %}"><strong><img src="{% static 'main/icons/arrow-left.png' %}"> Все объявления</strong></a>
         {% else %}
             <a class="navbar-brand text-light"
-               href="{% url 'main:menu' %}"><strong><span class="fa fa-arrow-left"></span> {{ rubric }}</strong></a>
+               href="{% url 'main:menu' %}"><strong><img src="{% static 'main/icons/arrow-left.png' %}"> {{ rubric }}</strong></a>
         {% endif %}
         <button class="navbar-toggler" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -71,7 +71,7 @@
             {% for rubric in rubrics %}
                 <a class="nav-link" href="{% url 'main:rubric_bbs' pk=rubric.pk %}">{{ rubric.name }}</a>
             {% endfor %}
-            <a class="nav-link fs-5" href="{% url 'main:other' page='about' %}">О сайте</a>
+{#            <a class="nav-link fs-5" href="{% url 'main:other' page='about' %}">О сайте</a>#}
         </nav>
     {% endif %}
     <main class="col py-2">

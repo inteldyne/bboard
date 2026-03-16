@@ -8,6 +8,7 @@ body {
 
 .nav {
   padding-right: 0;
+
   &-link {
     font-size: 56px;
   }
@@ -24,11 +25,16 @@ body {
 .navbar-brand {
   padding-left: 20px;
   font-size: 56px;
+
+  img {
+    width: 60px;
+  }
 }
 
 a {
   &.nav-link {
     color: #fff;
+
     &:hover {
       color: #fff;
       background-color: #212b35;
@@ -50,6 +56,7 @@ img {
   border: none;
   background-color: #182633;
   color: #ffffff;
+
   h3 {
     &.card-title {
       a {
@@ -63,7 +70,7 @@ h2 {
   color: #fff;
 }
 
-.shortcut{
+.shortcut {
   color: #8193a9;
 }
 
