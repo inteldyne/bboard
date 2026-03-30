@@ -39,7 +39,7 @@ class AdvUserAdmin(admin.ModelAdmin):
     list_display = ('__str__', 'is_active', 'date_joined')
     search_fields = ('username', 'email', 'first_name', 'last_name')
     list_filter = (NonactivatedFilter,)
-    fields = (('username', 'email'), ('first_name', 'last_name'),
+    fields = ('image', ('username', 'email'), ('first_name', 'last_name'),
               ('send_messages', 'is_active'),
               ('is_staff', 'is_superuser'), 'groups', 'user_permissions',
               ('last_login', 'date_joined'))

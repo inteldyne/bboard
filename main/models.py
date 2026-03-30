@@ -4,6 +4,8 @@ from django.contrib.auth.models import AbstractUser
 from .utilities import get_timestamp_path
 
 class AdvUser(AbstractUser):
+    image = models.ImageField(blank=True, upload_to=get_timestamp_path,
+                              verbose_name='Фото профиля')
     send_messages = models.BooleanField(default=True,
                       verbose_name='Слать оповещения о новых комментариях?')
     def delete(self, *args, **kwargs):
